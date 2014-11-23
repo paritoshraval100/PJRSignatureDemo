@@ -8,7 +8,7 @@ It is a UIView subclass by which you can draw signature and you can also get an 
 Why it is useful to you and what is new in it ?
 ===============================================================
 
-It is an well structured components , The demo contains Model View Controller design pattern,It is using beizer path for drawing signature which is very fast and you can also get image of your signature.
+It is a well structured components , The demo contains Model View Controller design pattern,It is using beizer path for drawing signature which is very fast and you can also get image of your signature.
 
 **What is new ?**
 
@@ -42,7 +42,7 @@ How to use
 
 ```[signatureView getSignatureImage];```
 
-- **you can change signature color from PJRSignatureView.m by changing color in ** 
+- **you can change signature Color By** 
 
 ```#define INITIAL_COLOR [UIColor redColor];```
 ```#define FINAL_COLOR [UIColor redColor];```
