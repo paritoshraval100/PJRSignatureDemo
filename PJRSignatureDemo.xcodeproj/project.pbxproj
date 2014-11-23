@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		284803F21A1FD6CD005A65C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 284803F11A1FD6CD005A65C9 /* main.m */; };
+		284803F51A1FD6CD005A65C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 284803F41A1FD6CD005A65C9 /* AppDelegate.m */; };
+		284803FD1A1FD6CD005A65C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284803FC1A1FD6CD005A65C9 /* Images.xcassets */; };
+		284804001A1FD6CD005A65C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 284803FE1A1FD6CD005A65C9 /* LaunchScreen.xib */; };
+		2848040C1A1FD6CD005A65C9 /* PJRSignatureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2848040B1A1FD6CD005A65C9 /* PJRSignatureDemoTests.m */; };
+		2848041B1A1FD8B7005A65C9 /* SignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284804191A1FD8B7005A65C9 /* SignViewController.m */; };
+		2848041C1A1FD8B7005A65C9 /* SignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2848041A1A1FD8B7005A65C9 /* SignViewController.xib */; };
+		284804211A1FD939005A65C9 /* PJRSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 284804201A1FD939005A65C9 /* PJRSignatureView.m */; };
+		2895D07F1A2245AA00DBF045 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2895D07D1A2245AA00DBF045 /* ImageViewController.m */; };
+		2895D0801A2245AA00DBF045 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2895D07E1A2245AA00DBF045 /* ImageViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		284804061A1FD6CD005A65C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 284803E41A1FD6CD005A65C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 284803EB1A1FD6CD005A65C9;
+			remoteInfo = PJRSignatureDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		284803EC1A1FD6CD005A65C9 /* PJRSignatureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJRSignatureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		284803F01A1FD6CD005A65C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284803F11A1FD6CD005A65C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		284803F31A1FD6CD005A65C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		284803F41A1FD6CD005A65C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		284803FC1A1FD6CD005A65C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		284803FF1A1FD6CD005A65C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		284804051A1FD6CD005A65C9 /* PJRSignatureDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJRSignatureDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2848040A1A1FD6CD005A65C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2848040B1A1FD6CD005A65C9 /* PJRSignatureDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJRSignatureDemoTests.m; sourceTree = "<group>"; };
+		284804181A1FD8B7005A65C9 /* SignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignViewController.h; sourceTree = "<group>"; };
+		284804191A1FD8B7005A65C9 /* SignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignViewController.m; sourceTree = "<group>"; };
+		2848041A1A1FD8B7005A65C9 /* SignViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SignViewController.xib; path = ../Controllers/SignViewController.xib; sourceTree = "<group>"; };
+		2848041F1A1FD939005A65C9 /* PJRSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJRSignatureView.h; sourceTree = "<group>"; };
+		284804201A1FD939005A65C9 /* PJRSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJRSignatureView.m; sourceTree = "<group>"; };
+		2895D07C1A2245AA00DBF045 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		2895D07D1A2245AA00DBF045 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		2895D07E1A2245AA00DBF045 /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImageViewController.xib; path = ../Controllers/ImageViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		284803E91A1FD6CD005A65C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284804021A1FD6CD005A65C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		284803E31A1FD6CD005A65C9 = {
+			isa = PBXGroup;
+			children = (
+				284803EE1A1FD6CD005A65C9 /* PJRSignatureDemo */,
+				284804081A1FD6CD005A65C9 /* PJRSignatureDemoTests */,
+				284803ED1A1FD6CD005A65C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		284803ED1A1FD6CD005A65C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				284803EC1A1FD6CD005A65C9 /* PJRSignatureDemo.app */,
+				284804051A1FD6CD005A65C9 /* PJRSignatureDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		284803EE1A1FD6CD005A65C9 /* PJRSignatureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				284803F31A1FD6CD005A65C9 /* AppDelegate.h */,
+				284803F41A1FD6CD005A65C9 /* AppDelegate.m */,
+				284804161A1FD854005A65C9 /* Model */,
+				284804171A1FD854005A65C9 /* View */,
+				284804151A1FD83B005A65C9 /* Controllers */,
+				284803FC1A1FD6CD005A65C9 /* Images.xcassets */,
+				284803FE1A1FD6CD005A65C9 /* LaunchScreen.xib */,
+				284803EF1A1FD6CD005A65C9 /* Supporting Files */,
+			);
+			path = PJRSignatureDemo;
+			sourceTree = "<group>";
+		};
+		284803EF1A1FD6CD005A65C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				284803F01A1FD6CD005A65C9 /* Info.plist */,
+				284803F11A1FD6CD005A65C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		284804081A1FD6CD005A65C9 /* PJRSignatureDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2848040B1A1FD6CD005A65C9 /* PJRSignatureDemoTests.m */,
+				284804091A1FD6CD005A65C9 /* Supporting Files */,
+			);
+			path = PJRSignatureDemoTests;
+			sourceTree = "<group>";
+		};
+		284804091A1FD6CD005A65C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2848040A1A1FD6CD005A65C9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		284804151A1FD83B005A65C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				284804181A1FD8B7005A65C9 /* SignViewController.h */,
+				284804191A1FD8B7005A65C9 /* SignViewController.m */,
+				2895D07C1A2245AA00DBF045 /* ImageViewController.h */,
+				2895D07D1A2245AA00DBF045 /* ImageViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		284804161A1FD854005A65C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		284804171A1FD854005A65C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2848041A1A1FD8B7005A65C9 /* SignViewController.xib */,
+				2895D07E1A2245AA00DBF045 /* ImageViewController.xib */,
+				2848041E1A1FD939005A65C9 /* PJRSignatureView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2848041E1A1FD939005A65C9 /* PJRSignatureView */ = {
+			isa = PBXGroup;
+			children = (
+				2848041F1A1FD939005A65C9 /* PJRSignatureView.h */,
+				284804201A1FD939005A65C9 /* PJRSignatureView.m */,
+			);
+			path = PJRSignatureView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		284803EB1A1FD6CD005A65C9 /* PJRSignatureDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2848040F1A1FD6CD005A65C9 /* Build configuration list for PBXNativeTarget "PJRSignatureDemo" */;
+			buildPhases = (
+				284803E81A1FD6CD005A65C9 /* Sources */,
+				284803E91A1FD6CD005A65C9 /* Frameworks */,
+				284803EA1A1FD6CD005A65C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PJRSignatureDemo;
+			productName = PJRSignatureDemo;
+			productReference = 284803EC1A1FD6CD005A65C9 /* PJRSignatureDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		284804041A1FD6CD005A65C9 /* PJRSignatureDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284804121A1FD6CD005A65C9 /* Build configuration list for PBXNativeTarget "PJRSignatureDemoTests" */;
+			buildPhases = (
+				284804011A1FD6CD005A65C9 /* Sources */,
+				284804021A1FD6CD005A65C9 /* Frameworks */,
+				284804031A1FD6CD005A65C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				284804071A1FD6CD005A65C9 /* PBXTargetDependency */,
+			);
+			name = PJRSignatureDemoTests;
+			productName = PJRSignatureDemoTests;
+			productReference = 284804051A1FD6CD005A65C9 /* PJRSignatureDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		284803E41A1FD6CD005A65C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = paritosh;
+				TargetAttributes = {
+					284803EB1A1FD6CD005A65C9 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					284804041A1FD6CD005A65C9 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 284803EB1A1FD6CD005A65C9;
+					};
+				};
+			};
+			buildConfigurationList = 284803E71A1FD6CD005A65C9 /* Build configuration list for PBXProject "PJRSignatureDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 284803E31A1FD6CD005A65C9;
+			productRefGroup = 284803ED1A1FD6CD005A65C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				284803EB1A1FD6CD005A65C9 /* PJRSignatureDemo */,
+				284804041A1FD6CD005A65C9 /* PJRSignatureDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		284803EA1A1FD6CD005A65C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284804001A1FD6CD005A65C9 /* LaunchScreen.xib in Resources */,
+				2848041C1A1FD8B7005A65C9 /* SignViewController.xib in Resources */,
+				2895D0801A2245AA00DBF045 /* ImageViewController.xib in Resources */,
+				284803FD1A1FD6CD005A65C9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284804031A1FD6CD005A65C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284803E81A1FD6CD005A65C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2895D07F1A2245AA00DBF045 /* ImageViewController.m in Sources */,
+				284803F51A1FD6CD005A65C9 /* AppDelegate.m in Sources */,
+				2848041B1A1FD8B7005A65C9 /* SignViewController.m in Sources */,
+				284804211A1FD939005A65C9 /* PJRSignatureView.m in Sources */,
+				284803F21A1FD6CD005A65C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284804011A1FD6CD005A65C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2848040C1A1FD6CD005A65C9 /* PJRSignatureDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		284804071A1FD6CD005A65C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 284803EB1A1FD6CD005A65C9 /* PJRSignatureDemo */;
+			targetProxy = 284804061A1FD6CD005A65C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		284803FE1A1FD6CD005A65C9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284803FF1A1FD6CD005A65C9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2848040D1A1FD6CD005A65C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2848040E1A1FD6CD005A65C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		284804101A1FD6CD005A65C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PJRSignatureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		284804111A1FD6CD005A65C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PJRSignatureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		284804131A1FD6CD005A65C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PJRSignatureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PJRSignatureDemo.app/PJRSignatureDemo";
+			};
+			name = Debug;
+		};
+		284804141A1FD6CD005A65C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PJRSignatureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PJRSignatureDemo.app/PJRSignatureDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		284803E71A1FD6CD005A65C9 /* Build configuration list for PBXProject "PJRSignatureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2848040D1A1FD6CD005A65C9 /* Debug */,
+				2848040E1A1FD6CD005A65C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2848040F1A1FD6CD005A65C9 /* Build configuration list for PBXNativeTarget "PJRSignatureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284804101A1FD6CD005A65C9 /* Debug */,
+				284804111A1FD6CD005A65C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		284804121A1FD6CD005A65C9 /* Build configuration list for PBXNativeTarget "PJRSignatureDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284804131A1FD6CD005A65C9 /* Debug */,
+				284804141A1FD6CD005A65C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 284803E41A1FD6CD005A65C9 /* Project object */;
+}
